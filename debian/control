@@ -1,0 +1,12 @@
+Source: ros-jade-catkin-simple
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-catkin-simple
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-catkin
+Description: catkin, simpler
